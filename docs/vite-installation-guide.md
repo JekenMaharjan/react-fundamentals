@@ -92,11 +92,11 @@ my-vite-app/
 
 ### 1. **Install Tailwind CSS**  
 
-Install tailwindcss and @tailwindcss/vite via npm.  
+    Install tailwindcss and @tailwindcss/vite via npm.  
 
-```bash
-npm install tailwindcss @tailwindcss/vite
-```
+    ```bash
+    npm install tailwindcss @tailwindcss/vite
+    ```
    
 ### 2. **Configure the Vite plugin** 
 
