@@ -8,7 +8,7 @@ node -v
 npm -v
 ```
 
-*If not installed, install Node.js LTS (always LTS, never experimental).*
+*If not installed, install Node.js LTS (always LTS, never experimental).*  
 Install Node.js LTS from here: [Download Nodejs LTS](https://nodejs.org/en/download)
 
 ---
