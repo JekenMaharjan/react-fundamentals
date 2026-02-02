@@ -3,12 +3,14 @@
 ## 1️⃣ Install Node.js
 
 Check if Node is installed:  
+
 ```bash
 node -v
 npm -v
 ```
 
-*If not installed, install Node.js LTS (always LTS, never experimental).*  
+*If not installed, install Node.js LTS (always LTS, never experimental).*
+
 Install Node.js LTS from here: [Download Nodejs LTS](https://nodejs.org/en/download)
 
 ---
@@ -24,10 +26,12 @@ npm create vite@latest
 ```
 
 Choose carefully:
+
 - **Project name**: my-vite-app
 - **Framework**: React
 - **Variant**: JavaScript (start simple, scale later)
 - **npm install**: Yes
+
 This creates a clean structure of Vite + React.
 
 ---
