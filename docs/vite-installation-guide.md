@@ -3,10 +3,11 @@
 ## 1️⃣ Install Node.js
 
 Check if Node is installed:  
-        ```bash
-        node -v
-        npm -v
-    ```
+
+```bash
+node -v
+npm -v
+```
 
 *If not installed, install Node.js LTS (always LTS, never experimental).*
 
@@ -18,10 +19,11 @@ Install Node.js LTS from here: [Download Nodejs LTS](https://nodejs.org/en/downl
 
 Guide to Install Vite, Visit: [Vite Getting Started](https://vite.dev/guide/)
 
-Go to the folder where you keep projects:  
-    ```bash
-    npm create vite@latest
-    ```
+Go to the folder where you keep projects:
+
+```bash
+npm create vite@latest
+```
 
 Choose carefully:
 
@@ -35,9 +37,10 @@ This creates a clean structure of Vite + React.
 ---
 
 ## 3️⃣ Enter the project folder
-    ```bash
-    cd my-vite-app
-    ```
+
+```bash
+cd my-vite-app
+```
 
 ---
 
