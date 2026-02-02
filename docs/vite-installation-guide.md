@@ -97,7 +97,7 @@ Install tailwindcss and @tailwindcss/vite via npm.
     ```bash
     npm install tailwindcss @tailwindcss/vite
     ```
-   
+
 ### 2. **Configure the Vite plugin** 
 
 Add the @tailwindcss/vite plugin to your Vite configuration.
