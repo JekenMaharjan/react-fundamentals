@@ -8,7 +8,7 @@ A streamlined guide to setting up a modern web development environment.
 
 Before starting, ensure you have **Node.js LTS** installed. Avoid experimental versions for better stability.
 
-```js
+```bash
 # Verify installation
 node -v
 npm -v
@@ -102,7 +102,7 @@ my-vite-app/
 Install tailwindcss and @tailwindcss/vite via npm.  
 
 ```bash
-npm install tailwindcss @tailwindcss/vite
+    npm install tailwindcss @tailwindcss/vite
 ```
    
 ### 2. **Configure the Vite plugin** 
@@ -110,14 +110,14 @@ npm install tailwindcss @tailwindcss/vite
 Add the @tailwindcss/vite plugin to your Vite configuration.
 
 ```bash
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
+    import { defineConfig } from 'vite'
+    import tailwindcss from '@tailwindcss/vite'
 
-export default defineConfig({
-plugins: [
-    tailwindcss(),
-],
-})
+    export default defineConfig({
+    plugins: [
+        tailwindcss(),
+    ],
+    })
 ```
 
 ### 3. **Import Tailwind CSS**  
@@ -125,5 +125,5 @@ plugins: [
 Add an @import to your CSS file that imports Tailwind CSS.
 
 ```bash
-@import "tailwindcss";
+    @import "tailwindcss";
 ```
