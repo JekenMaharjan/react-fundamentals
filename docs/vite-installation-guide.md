@@ -88,7 +88,7 @@ my-vite-app/
 
 ---
 
-## Import Tailwind CSS
+## 📦 Import Tailwind CSS
 
 ### 1. **Install Tailwind CSS**  
 
