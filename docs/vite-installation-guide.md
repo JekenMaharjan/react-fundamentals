@@ -124,6 +124,6 @@ plugins: [
 
     Add an @import to your CSS file that imports Tailwind CSS.  
 
-  ```bash
+   ```bash
     @import "tailwindcss";
     ```
