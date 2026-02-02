@@ -8,22 +8,24 @@ A streamlined guide to setting up a modern web development environment.
 
 Before starting, ensure you have **Node.js LTS** installed. Avoid experimental versions for better stability.
 
+    # Verify installation
+    node -v
+    npm -v
+
 ```bash
 # Verify installation
 node -v
 npm -v
 ```
 
-*If not installed, install Node.js LTS (always LTS, never experimental).*
-
+*If not installed, install Node.js LTS (always LTS, never experimental).*  
 Install Node.js LTS from here: [Download Nodejs LTS](https://nodejs.org/en/download)
 
 ---
 
 ## 2️⃣ Create Your Vite project
 
-Guide to Install Vite, Visit: [Vite Getting Started](https://vite.dev/guide/)
-
+Guide to Install Vite, Visit: [Vite Getting Started](https://vite.dev/guide/)  
 Go to the folder where you keep projects:
 
 ```bash
@@ -97,29 +99,30 @@ my-vite-app/
 
 ## 📦 Configure Tailwind CSS
 
-1. Install Tailwind CSS
-    # Install tailwindcss and @tailwindcss/vite via npm
+1. **Install Tailwind CSS**  
+Install tailwindcss and @tailwindcss/vite via npm.
+
+    ```bash
     npm install tailwindcss @tailwindcss/vite
+    ```
 
-1. Configure the Vite plugin
-
+2. **Configure the Vite plugin**  
 Add the @tailwindcss/vite plugin to your Vite configuration.
 
-```bash
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
+    ```bash
+    import { defineConfig } from 'vite'
+    import tailwindcss from '@tailwindcss/vite'
 
-export default defineConfig({
-plugins: [
-    tailwindcss(),
-],
-})
-```
+    export default defineConfig({
+    plugins: [
+        tailwindcss(),
+    ],
+    })
+    ```
 
-1. Import Tailwind CSS
-
+3. **Import Tailwind CSS**  
 Add an @import to your CSS file that imports Tailwind CSS.
 
-```bash
-@import "tailwindcss";
-```
+    ```bash
+    @import "tailwindcss";
+    ```
