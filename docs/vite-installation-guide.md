@@ -6,7 +6,7 @@ Check if Node is installed:
    ```bash
     node -v
     npm -v
-    ```
+```
 
 *If not installed, install Node.js LTS (always LTS, never experimental).*
 
