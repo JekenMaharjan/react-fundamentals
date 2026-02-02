@@ -2,7 +2,7 @@
 
 ## 1️⃣ Install Node.js
 
-Check if Node is installed:
+Check if Node is installed:  
 ```bash
 node -v
 npm -v
