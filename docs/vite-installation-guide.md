@@ -97,8 +97,10 @@ my-vite-app/
 
 ## 📦 Configure Tailwind CSS
 
-### 1. Install Tailwind CSS  
-Install tailwindcss and @tailwindcss/vite via npm.  
+### 1. Install Tailwind CSS
+
+Install tailwindcss and @tailwindcss/vite via npm.
+
 ```bash
 npm install tailwindcss @tailwindcss/vite
 ```
