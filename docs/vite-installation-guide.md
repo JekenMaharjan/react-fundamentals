@@ -8,7 +8,7 @@ A streamlined guide to setting up a modern web development environment.
 
 Before starting, ensure you have **Node.js LTS** installed. Avoid experimental versions for better stability.
 
-```bash
+```js
 # Verify installation
 node -v
 npm -v
