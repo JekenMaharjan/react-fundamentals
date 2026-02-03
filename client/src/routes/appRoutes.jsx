@@ -10,7 +10,7 @@ function AppRoutes() {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/not-found" element={<NotFound />} />
+            <Route path="*" element={<NotFound />} />
             <Route path="/01-jsx-basics" element={<JsxBasicsPage />} />
         </Routes>
     );
