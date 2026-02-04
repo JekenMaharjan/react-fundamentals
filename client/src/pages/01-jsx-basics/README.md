@@ -10,6 +10,11 @@ Clearly Understand:
 5. **Why must JSX return one parent element?** 
 6. **Single parent rule**
 
+7. **What error did you get when returning multiple elements?**
+8. **Why does React enforce a single parent?**
+9.  **What kind of JavaScript can be written inside {}?**
+10. **Why can’t we write if directly inside JSX?**
+
 ---
 
 ## 📁 Step 1: Folder Setup (inside client)
@@ -30,7 +35,9 @@ client/
 
 ---
 
-## 📘 Step 2: Concept
+## 📘 Step 2: Concepts
+
+### Theory Concepts
 
 1. **What is React?**   
     **Answer:**  
@@ -137,5 +144,102 @@ client/
     ```
     
     Fragments avoid adding extra `<div>` in the DOM.
+
+---
+
+### Practical Concepts
+
+7. **What error did you get when returning multiple elements?**  
+   **Answer:**  
+    Error:
+
+    > JSX expressions must have one parent element
+
+    (or sometimes)
+
+    > Adjacent JSX elements must be wrapped in an enclosing tag
+
+    In simple word,  
+    React does not allow returning two elements side by side like this:
+
+    ```jsx
+    <h1>Hello</h1>
+    <p>This will break</p>
+    ```
+
+    You must wrap them inside one parent (like a `<div>`).
+
+---
+
+8. **Why does React enforce a single parent?**  
+   **Answer:**  
+    Because JSX must return one JavaScript object.
+
+    In simple word,
+    - JSX is converted into JavaScript
+    - JavaScript functions can return only one value
+    - Multiple elements must be wrapped into one container
+
+    Correct:
+    
+    ```html
+    <div>
+        <h1>Hello</h1>
+        <p>Works fine</p>
+    </div>
+    ```
+
+    > This rule keeps React fast, predictable, and easy to manage.
+
+---
+
+9.  **What kind of JavaScript can be written inside `{}`?**  
+    **Answer:**  
+    Inside `{}` we can write JavaScript expressions.
+
+    Examples in code:
+
+    ```jsx
+    {fullName}               // variable
+    {10 + 5}                 // expression
+    {true ? "Yes" : "No"}    // ternary condition
+    {Math.random()}          // function call
+    ```
+
+    - Expressions - Allowed
+    - Statements - Not Allowed
+
+---
+
+10. **Why can’t we write if directly inside JSX?**  
+    **Answer:**  
+    Because if is a statement, not an expression.
+
+    Example (wrong):
+
+    ```jsx
+    { if (isLoggedIn) { "Yes" } }
+    ```
+
+    **React solution:**  
+    Use ternary operator instead (expression):
+
+    ```jsx
+    {isLoggedIn ? "Yes" : "No"}
+    ```
+
+    Simple Reason:
+    - JSX only accepts expressions
+    - `if`, `for`, `while` are statements
+    - Statements do not return a value
+
+---
+
+### One-line answers (VERY IMPORTANT)
+
+- **Error**: JSX must have a single parent element
+- **Reason for single parent**: JSX returns one JavaScript object
+- **Inside {} we can write**: JavaScript expressions
+- **if not allowed because**: It is a statement, not an expression
 
 
