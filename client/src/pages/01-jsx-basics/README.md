@@ -35,10 +35,12 @@ client/
 ## 📘 Step 2: Concept
 
 1. **What is React?**  
+    **Answer:**  
     React is a JavaScript library used to build user interfaces (UI), especially single-page applications.  
     In simple words, react helps you build fast, interactive websites using small reusable pieces called components.
 
 2. **What is JSX?**  
+    **Answer:**  
     JSX stands for JavaScript XML. JSX lets us write UI structure using JavaScript syntax.  
     Example:
 
@@ -49,6 +51,7 @@ client/
     This looks like HTML, but it’s actually JavaScript. JSX makes React code easy to read and write.
 
 3. **JSX vs HTML**  
+    **Answer:**  
     | HTML                    | JSX                     |
     | ----------------------- | ----------------------- |
     | Used in normal websites | Used inside React       |
@@ -70,6 +73,7 @@ client/
     ```
 
 4. **Why do we use {} in JSX?**  
+    **Answer:**  
     {} is used to insert JavaScript inside JSX.  
     Anything inside {} is treated as JavaScript code.  
     Example:  
@@ -81,6 +85,7 @@ client/
     ```
 
 5. **Why must JSX return one parent element?**  
+    **Answer:**  
     React components must return only one parent element because React needs one root to manage the UI efficiently.  
     This is invalid:  
 
@@ -103,13 +108,14 @@ client/
     ```
 
 6. **Single parent rule**  
+    **Answer:**  
     The Single Parent Rule means:  
     A React component must wrap all JSX inside one parent element.  
     Parent can be:  
-    - <div>
-    - <section>
-    - <main>
-    - React.Fragment or <> </>
+    1. `<div>`
+    2. `<section>`
+    3. `<main>`
+    4. `React.Fragment or <> </>`
 
     Example using Fragment:
 

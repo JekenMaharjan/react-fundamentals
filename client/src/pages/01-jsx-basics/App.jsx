@@ -12,11 +12,14 @@ const JsxBasicsPage = () => {
     // );
 
     return (
-        <div className="flex flex-col p-5 items-center bg-orange-100 min-w-screen min-h-screen">
-            <h1 className="font-serif font-bold text-4xl mb-10">React Fundamentals - Day 1</h1>
-            <h4 className="font-serif font-bold text-xl mb-5">JSX Basics</h4>
+        <div className="flex flex-col items-center justify-between min-w-screen min-h-screen">
+            <header className="w-full flex items-center justify-center bg-blue-600">
+                <h1 className="text-2xl font-bold text-center text-white p-4 font-mono">
+                    DAY 1 - React Fundamentals : JSX Basics
+                </h1>
+            </header>
             
-            <div className="flex flex-col gap-2 bg-white py-5 px-10 rounded-md shadow-md">
+            <main className="flex flex-col gap-2 bg-white py-5 px-10 rounded-md shadow-2xl border-2 border-gray-200">
                 <p>Name: {fullName}</p>
                 <p>Profession: {profession}</p>
                 <p>Learning: {learing}</p>
@@ -25,7 +28,11 @@ const JsxBasicsPage = () => {
 
                 <p>Is React fun? {true ? "Yes" : "Absolutely"}</p>
                 <p>Random number: {Math.floor(Math.random() * 10)}</p>
-            </div>
+            </main>
+
+            <footer className="flex w-full p-4 justify-center bg-gray-800">
+                <p className="text-center text-white font-serif">© {currentYear} React Practice</p>
+            </footer>
         </div>
     )
 }
