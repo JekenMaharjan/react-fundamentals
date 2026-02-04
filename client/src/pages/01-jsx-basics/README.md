@@ -39,16 +39,18 @@ client/
     React is a JavaScript library used to build user interfaces (UI), especially single-page applications.  
     In simple words, react helps you build fast, interactive websites using small reusable pieces called components.
 
+---
+
 2. **What is JSX?**  
     **Answer:**  
     JSX stands for JavaScript XML. JSX lets us write UI structure using JavaScript syntax.  
     Example:
-
     ```js
     const element = <h1>Hello World</h1>;
     ```
-
     This looks like HTML, but it’s actually JavaScript. JSX makes React code easy to read and write.
+
+---
 
 3. **JSX vs HTML**  
     **Answer:**  
@@ -72,32 +74,32 @@ client/
     <h1 className="title">Hello</h1>
     ```
 
-4. **Why do we use {} in JSX?**  
-    **Answer:**  
-    {} is used to insert JavaScript inside JSX.  
-    Anything inside {} is treated as JavaScript code.  
-    Example:  
+---
 
+4. **Why do we use `{}` in JSX?**  
+    **Answer:**  
+    `{}` is used to insert JavaScript inside JSX.  
+    Anything inside `{}` is treated as JavaScript code.  
+    Example:  
     ```js
     const name = "React";
     <h1>Hello {name}</h1>
     // Output: Hello React
     ```
 
+---
+
 5. **Why must JSX return one parent element?**  
     **Answer:**  
     React components must return only one parent element because React needs one root to manage the UI efficiently.  
     This is invalid:  
-
     ```js
     return (
         <h1>Hello</h1>
         <p>Welcome</p>
     );
     ```
-
     This is valid:
-
     ```js
     return (
         <div>
@@ -107,7 +109,9 @@ client/
     );
     ```
 
-6. **Single parent rule**  
+---
+
+6. **What is Single parent rule?**  
     **Answer:**  
     The Single Parent Rule means:  
     A React component must wrap all JSX inside one parent element.  
@@ -118,7 +122,6 @@ client/
     4. `React.Fragment or <> </>`
 
     Example using Fragment:
-
     ```js
     return (
         <>
@@ -127,7 +130,6 @@ client/
         </>
     );
     ```
-
-    Fragments avoid adding extra <div> in the DOM.
+    Fragments avoid adding extra `<div>` in the DOM.
 
 
