@@ -1,9 +1,17 @@
+// Importing useNavigate from react-router-dom
+// useNavigate allows us to programmatically navigate to different routes/pages
 import { useNavigate } from 'react-router-dom'
 
+// Home Component
+// This is the main page showing all lessons/routes
 const Home = () => {
 
+    // Initialize the navigate function from useNavigate
+    // We can call navigate("/path") to go to a different page
     const navigate = useNavigate();
 
+    // Array of route links
+    // Each object contains an id (unique), title (button text), and link (route path)
     const routeLinks = [
         { id: 1, title: "01 : JSX Basics", link: "/01-jsx-basics" },
         { id: 2, title: "02 : Components & Folder Structure", link: "/02-components-folder-structure" },
@@ -21,17 +29,26 @@ const Home = () => {
         { id: 14, title: "14 : Custom Hooks", link: "/14-custom-hooks" },
     ]
 
+    // JSX returned by the component
     return (
-        <div className='flex flex-col gap-5 p-5 items-center bg-orange-100 min-w-screen min-h-screen'>
-            <h1 className='font-serif font-bold text-4xl'>React Fundamentals</h1>
-            <div className='flex flex-col gap-5'>
+        // Parent container
+        <div className='flex flex-col gap-5 items-center min-w-screen min-h-screen'>
+
+            {/* Page heading */}
+            <h1 className='font-serif font-bold text-3xl mb-10 bg-blue-600 text-white w-full text-center p-5'>
+                React Fundamentals
+            </h1>
+
+            {/* Grid container for buttons */}
+            <div className='grid grid-cols-5 gap-5'>
+                {/* Map over routeLinks array to create a button for each lesson */}
                 {routeLinks.map((route) => (
                     <button
-                        key={route.id}
-                        onClick={() => navigate(route.link)}
-                        className="bg-green-400 hover:bg-green-500 px-4 py-2 rounded-md text-start"
+                        key={route.id} // key is important for list rendering in React
+                        onClick={() => navigate(route.link)} // Navigate to the route when button is clicked
+                        className="bg-green-400 hover:bg-green-500 px-4 py-2 rounded-md text-start" // Tailwind styling
                     >
-                        {route.title}
+                        {route.title} {/* Display the lesson title */}
                     </button>
                 ))}
             </div>
@@ -39,4 +56,5 @@ const Home = () => {
     );
 };
 
+// Exporting Home component for use in App.js or routing
 export default Home;

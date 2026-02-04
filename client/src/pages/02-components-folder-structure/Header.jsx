@@ -1,11 +1,17 @@
-function Header() {
+// Header Component using Arrow Function
+// This component displays the top section of the page
+const Header = () => {
+
+    // JSX must return a single parent element
     return (
-        <header className="w-full flex items-center justify-center bg-blue-600">
-            <h1 className="text-2xl font-bold text-center text-white p-4 font-mono">
-                DAY 2 - React Fundamentals : React Components
+        // <header> is semantic HTML for page header
+        <header className="font-serif font-bold text-3xl mb-10 bg-blue-600 text-white w-full text-center p-5">
+            <h1>
+                Day 2 - React Fundamentals : React Components
             </h1>
         </header>
     );
-}
+};
 
+// Exporting Header so it can be used in other files/components
 export default Header;
