@@ -1,6 +1,6 @@
 # DAY 7 — Conditional Rendering
 
-> **Focus**: Showing different UI based on conditions
+> **Focus**: Showing different UI based on conditions  
 > **Core idea**: UI changes depending on state
 
 ## 🎯 Day 7 Goal
@@ -58,7 +58,7 @@ client/
 
 ---
 
-2. **Why do we need conditional rendering?** 
+2. **Why do we need conditional rendering?**  
     **Answer:**  
     Because real applications do not show everything all the time. UI must change depending on user actions, state, or data.
 
@@ -115,7 +115,7 @@ client/
 
 ---
 
-6. **What does `&&` do in conditional rendering?** 
+6. **What does `&&` do in conditional rendering?**  
     **Answer:**  
     The && operator shows something only when the condition is true. If the condition is false, nothing is rendered.
 
@@ -127,7 +127,7 @@ client/
 
 ---
 
-7. **When should we use `if / else` instead of ternary?**
+7. **When should we use `if / else` instead of ternary?**  
     **Answer:**  
     We use `if / else` when the logic is complex or has many conditions. It keeps the code cleaner and easier to understand.
 

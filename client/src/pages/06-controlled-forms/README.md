@@ -1,6 +1,6 @@
 # DAY 6 — Forms & Controlled Components
 
-> **Focus**: Handling forms the “React way” 
+> **Focus**: Handling forms the “React way”  
 > **Core idea**: React controls the input, not the browser
 
 ## 🎯 Day 6 Goal
@@ -94,7 +94,7 @@ client/
 
 ---
 
-8. ** **  
+8. **Who controls the input value in a controlled component?**  
     **Answer:**  
     React state controls the input value, not the browser.
 
