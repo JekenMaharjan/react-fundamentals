@@ -31,6 +31,7 @@ client/
 │   ├── 03-props-data-passing/
 │   ├── 04-usestate-basics/
 │   ├── 05-events-state-updates/
+│   │   ├── App.jsx
 │   │   ├── EventsDemo.jsx
 │   │   └── README.md
 │   │

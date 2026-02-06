@@ -11,7 +11,7 @@ const EventsDemo = () => {
 
     return (
         <div className="flex flex-col gap-5 bg-gray-500 p-5 rounded">
-            <div className="flex justify-between items-center bg-gray-200 p-4 rounded">
+            <div className="flex gap-5 justify-between items-center bg-gray-200 p-4 rounded">
                 <button
                     className="px-4 py-2 bg-yellow-500 hover:bg-yellow-600 text-white rounded-md"
                     onClick={handleClick}
@@ -21,7 +21,7 @@ const EventsDemo = () => {
                 <p>{message}</p>
             </div>
 
-            <div className="flex justify-between items-center bg-gray-200 p-4 rounded">
+            <div className="flex gap-5 justify-between items-center bg-gray-200 p-4 rounded">
                 <button
                     className="px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-md"
                     onClick={() => setCount(count + 1)}

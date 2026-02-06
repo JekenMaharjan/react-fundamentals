@@ -40,7 +40,7 @@ const Home = () => {
             </h1>
 
             {/* Grid container for buttons */}
-            <div className='grid grid-cols-5 gap-5'>
+            <div className='grid sm:grid-cols-2 lg:grid-cols-5 gap-5'>
                 {/* Map over routeLinks array to create a button for each lesson */}
                 {routeLinks.map((route) => (
                     <button
