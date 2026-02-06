@@ -95,3 +95,27 @@ client/
     For dynamic lists, use a unique id.
 
 ---
+
+### Practical Concepts
+
+6. **Why do we use `map()`?**
+    **Answer:**  
+    We use `map()` to loop through an array and convert each item into a JSX element that React can render.
+
+---
+
+7. **Why should keys be unique?**
+    **Answer:**  
+    Unique keys help React update only the changed items, making the UI faster and correct.
+
+---
+
+8. **When is it okay to use index as key?**
+    **Answer:**  
+    It is okay to use index as a key only when the list is static and items do not change order or get removed.
+
+---
+
+### One-line answers (very important)
+
+> Keys help React remember which list item is which.
