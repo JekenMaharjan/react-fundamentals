@@ -8,7 +8,7 @@ const UseEffectBasicsPage = () => {
             {/* HEADER SECTION */}
             <header className="font-serif font-bold text-3xl mb-10 bg-blue-600 text-white w-full text-center p-5">
                 <h1>
-                    DAY 9 - `useEffect` (Side Effects in React)
+                    Day 9 - useEffect (Side Effects in React)
                 </h1>
             </header>
 
