@@ -8,7 +8,7 @@ const ComponentDesignPage = () => {
             {/* HEADER SECTION */}
             <header className="font-serif font-bold text-3xl mb-10 bg-blue-600 text-white w-full text-center p-5">
                 <h1>
-                    Day 10 — Component Design (useEffect Cleanup & Avoiding Infinite Loops)
+                    Day 10 — Component Design
                 </h1>
             </header>
 
