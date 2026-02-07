@@ -1,6 +1,8 @@
 import Counter from "./Counter";
 
 const CustomHooksPage = () => {
+    const currentYear = new Date().getFullYear();
+
     return (
         <div className="flex flex-col items-center justify-between min-w-screen min-h-screen">
             {/* HEADER SECTION */}
