@@ -1,9 +1,9 @@
 # DAY 11 — Component Design (Smart vs Dumb)
 
-> **Focus**: Writing clean, reusable, well-separated components
+> **Focus**: Writing clean, reusable, well-separated components  
 > **Core idea**: Each component should have one responsibility
 
-## 🎯 Day 10 Goal
+## 🎯 Day 11 Goal
 
 Clearly Understand:
 
