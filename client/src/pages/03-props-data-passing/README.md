@@ -3,6 +3,7 @@
 ## 🎯 Day 3 Goal
 
 Clearly Understand:
+
 1. **What are props in React?** 
 2. **Why are props called “properties”?** 
 3. **From where to where are props passed?** 

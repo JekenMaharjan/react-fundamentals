@@ -3,6 +3,7 @@
 ## 🎯 Day 1 Goal
 
 Clearly Understand:
+
 1. **What is React?** 
 2. **What is JSX?** 
 3. **JSX vs HTML** 

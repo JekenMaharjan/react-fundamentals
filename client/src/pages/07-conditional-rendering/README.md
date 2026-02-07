@@ -6,6 +6,7 @@
 ## 🎯 Day 7 Goal
 
 Clearly Understand:
+
 1. **What is conditional rendering?** 
 2. **Why do we need conditional rendering?** 
 3. **Ways to do conditional rendering in React** 

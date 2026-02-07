@@ -6,6 +6,7 @@
 ## 🎯 Day 8 Goal
 
 Clearly Understand:
+
 1. **What is a list in React?** 
 2. **How do we render lists in React?** 
 3. **What is a key in React?** 

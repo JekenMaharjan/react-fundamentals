@@ -6,6 +6,7 @@
 ## 🎯 Day 10 Goal
 
 Clearly Understand:
+
 1. **What is a cleanup function in `useEffect`?** 
 2. **Why do we need cleanup in `useEffect`?** 
 3. **When does cleanup run?** 

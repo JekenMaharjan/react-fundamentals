@@ -3,6 +3,7 @@
 ## 🎯 Day 4 Goal
 
 Clearly Understand:
+
 1. **What is state in React?** 
 2. **Why can’t we use normal variables for dynamic UI?** 
 3. **How does useState work?** 

@@ -6,6 +6,7 @@
 ## 🎯 Day 9 Goal
 
 Clearly Understand:
+
 1. **What is `useEffect`?** 
 2. **When does `useEffect` run?** 
 3. **What is the dependency array?** 

@@ -6,6 +6,7 @@
 ## 🎯 Day 5 Goal
 
 Clearly Understand:
+
 1. **What are events in React?** 
 2. **How are React events different from HTML events?** 
 3. **Why do we pass a function reference in events?** 

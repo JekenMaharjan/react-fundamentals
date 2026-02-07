@@ -6,6 +6,7 @@
 ## 🎯 Day 6 Goal
 
 Clearly Understand:
+
 1. **What is a controlled component?** 
 2. **Why do we use controlled components?** 
 3. **What is `onChange` used for?** 

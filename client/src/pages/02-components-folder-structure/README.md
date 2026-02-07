@@ -3,6 +3,7 @@
 ## 🎯 Day 2 Goal
 
 Clearly Understand:  
+
 1. **What is a React component?** 
 2. **Why are components important in React?** 
 3. **What are functional components?** 
