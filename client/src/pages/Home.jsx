@@ -27,6 +27,7 @@ const Home = () => {
         { id: 12, title: "12 : Lifting State Up", link: "/12-lifting-state-up" },
         { id: 13, title: "13 : Simple Data Fetching", link: "/13-simple-data-fetching" },
         { id: 14, title: "14 : Custom Hooks", link: "/14-custom-hooks" },
+        { id: 15, title: "15 : Counter With History", link: "/15-counter-with-history" },
     ]
 
     // JSX returned by the component

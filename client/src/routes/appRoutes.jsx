@@ -25,6 +25,7 @@ const ComponentDesignPage = lazy(() => import("../pages/11-component-design/App"
 const LiftingStateUpPage = lazy(() => import("../pages/12-lifting-state-up/App"));
 const SimpleDataFetchingPage = lazy(() => import("../pages/13-simple-data-fetching/App"));
 const CustomHooksPage = lazy(() => import("../pages/14-custom-hooks/App"));
+const CounterWithHistory = lazy(() => import("../pages/15-counter-with-history/App"));
 
 // AppRoutes component defines all application routes
 function AppRoutes() {
@@ -54,6 +55,7 @@ function AppRoutes() {
             <Route path="/12-lifting-state-up" element={<LiftingStateUpPage />} />
             <Route path="/13-simple-data-fetching" element={<SimpleDataFetchingPage />} />
             <Route path="/14-custom-hooks" element={<CustomHooksPage />} />
+            <Route path="/15-counter-with-history" element={<CounterWithHistory />} />
 
         </Routes>
     );
