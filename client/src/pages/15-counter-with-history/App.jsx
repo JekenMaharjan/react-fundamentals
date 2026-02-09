@@ -13,7 +13,7 @@ const CounterWithHistory = () => {
             </header>
 
             {/* MAIN CONTENT */}
-            <main className="flex-1 flex w-full p-5 justify-center items-center">
+            <main className="flex-1 flex w-full p-5 justify-center">
                 <Counter />
             </main>
 
